@@ -1,0 +1,25 @@
+
+#include "stdafx.h" 
+#include <iostream> // cin, cout
+#include "conio.h"
+
+using namespace std;
+
+void main()
+{
+	// Declarar variables
+	float promedio;
+	int a,b,c;
+	// Pedir datos de entrada
+	cout<<"Ingrese el primer valor: "; // Explicar los datos
+	cin>>a;
+    cout<<"Ingrese el segundo valor: "; // Explicar los datos
+	cin>>b;
+    cout<<"Ingrese el tercer valor: "; // Explicar los datos
+	cin>>c;
+    // Proceso
+	promedio=(a+b+c)/3.0; // Tip se debe colocar 3.0
+	// Mostrar los datos de salida
+	cout<<"El promedio es: "<<promedio; 
+	getch();
+}
